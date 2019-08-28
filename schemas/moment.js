@@ -8,6 +8,16 @@ export default {
       title: "Title",
       type: "string"
     },
+
+    {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "title",
+        maxLength: 100
+      }
+    },
     {
       name: "media",
       title: "Media",
